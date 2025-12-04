@@ -1,0 +1,32 @@
+1º Avaliação: (08/12/25)
+
+Esta avaliação tem como objetivo verificar a capacidade dos alunos em analisar, selecionar e configurar um Ambiente de Desenvolvimento Integrado (IDE) adequado às necessidades de um projeto de software desktop. Durante a atividade, os estudantes deverão identificar os requisitos do projeto, justificar a escolha da IDE e realizar a configuração inicial necessária para o desenvolvimento.
+
+Além disso, será avaliada a habilidade de personalizar o ambiente de trabalho, instalar extensões ou bibliotecas relevantes e demonstrar o uso correto das ferramentas disponíveis na IDE escolhida. O desempenho será medido pela coerência entre a escolha da IDE e o tipo de aplicação proposta, bem como pela qualidade da configuração realizada e pela implementação inicial do projeto.
+
+2º Avaliação: (12/01/26)
+
+Esta avaliação tem como objetivo verificar a competência dos alunos em traduzir requisitos funcionais em código estruturado e funcional, desenvolvendo uma aplicação desktop integrada a um banco de dados PostgreSQL. A partir de um documento de requisitos que descreve as funcionalidades de um sistema simples — como um gerenciador de tarefas — os estudantes deverão projetar e implementar um Produto Mínimo Viável (MVP) capaz de atender às necessidades básicas de uso cotidiano.
+
+Durante a atividade, será avaliada a capacidade de:
+
+- Interpretar e analisar requisitos para definir a arquitetura da aplicação.
+- Implementar funcionalidades essenciais em linguagem de programação adequada para aplicações desktop.
+- Configurar e conectar a aplicação ao banco de dados PostgreSQL, garantindo persistência e integridade dos dados.
+- Validar o funcionamento do sistema, assegurando que as operações básicas (inserção, consulta, atualização e exclusão) sejam executadas corretamente.
+- Documentar brevemente o processo de desenvolvimento, destacando decisões técnicas e justificativas para a implementação.
+
+O desempenho será mensurado pela adequação da solução aos requisitos, pela qualidade do código produzido, pela correta integração com o banco de dados e pela usabilidade mínima do sistema entregue.
+
+3º Avaliação: (28/01/26)
+
+Esta avaliação tem como objetivo verificar a competência dos alunos em testar, versionar e disponibilizar uma aplicação desktop integrada a banco de dados, consolidando o ciclo de desenvolvimento iniciado nas etapas anteriores. A partir do Produto Mínimo Viável (MVP) previamente implementado, os estudantes deverão aplicar técnicas de testes funcionais e de integração, garantindo que as principais funcionalidades do sistema estejam corretas e confiáveis.
+Durante a atividade, será avaliada a capacidade de:
+
+- Planejar e executar testes que validem requisitos funcionais e operações básicas (CRUD) da aplicação.
+- Utilizar ferramentas de versionamento de código (como Git) para organizar, documentar e controlar as alterações realizadas no projeto.
+- Gerenciar branches e commits de forma clara e consistente, assegurando rastreabilidade e colaboração.
+- Preparar o software para distribuição, configurando pacotes ou instaladores que permitam sua utilização em diferentes ambientes.
+- Documentar o processo de testes e versionamento, destacando boas práticas adotadas e justificando decisões técnicas.
+
+O desempenho será mensurado pela qualidade dos testes realizados, pela organização e clareza no versionamento do código, pela adequação da forma de disponibilização do software e pela consistência da documentação entregue.
