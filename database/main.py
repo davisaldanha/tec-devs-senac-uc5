@@ -1,8 +1,11 @@
 from querys import *
+from validations import validations as v
 
 def main():
-    for i in find_all_students():
-        print(i)
+    
+    delete_student(50)
+
+
 
 if __name__ == "__main__":
     main()
