@@ -95,3 +95,19 @@ def update_student(nome: str, sobrenome: str, idade: int,
                     return None
                 except Exception as e:
                     print(f'Error: {e}')
+
+def matriculation(id_student: int, id_turma: int):
+    '''Realiza a matricula de um aluno em uma turma'''
+    with connect() as CONN:
+        if CONN is not None:
+            with CONN.cursor() as cur:
+                try:
+                    if find_student_by_id(id_student):
+                        #Executa a query
+                        cur.execute(MATRICULATION, (id_student, id_turma))
+                        print('Matricula realizada com sucesso!')
+                        return
+                    raise NotFoundStudentException(f'Aluno com ID {id} não foi encontrado!')
+                except Exception as e:
+                    print(e)
+                    return None
