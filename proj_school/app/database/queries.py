@@ -41,3 +41,34 @@ INSERT_CLASS = '''INSERT INTO tbl_turma(fk_professor, fk_curso, turno)
 UPDATE_CLASS = '''UPDATE tbl_turma SET fk_professor = %s WHERE id_turma = %s'''
 
 DELETE_CLASS = '''DELETE FROM tbl_turma WHERE id_turma = %s'''
+
+# -------------------
+# -- QUERIES COURSE
+# -------------------
+
+SELECT_ALL_COURSE = 'SELECT * FROM tbl_curso'
+
+SELECT_COURSE_ID = 'SELECT * FROM tbl_curso WHERE id_curso = %s'
+
+INSERT_COURSE = '''INSERT INTO tbl_curso(nome, descricao, carga_horaria) VALUES (%s, %s, %s)'''
+
+UPDATE_COURSE = '''UPDATE tbl_curso SET nome = %s, descricao = %s, carga_horaria = %s WHERE id_curso = %s'''
+
+DELETE_COURSE = '''DELETE FROM tbl_curso WHERE id_curso = %s'''
+
+# -------------------
+# -- QUERIES PROFESSOR
+# -------------------
+SELECT_ALL_PROFESSOR = 'SELECT * FROM tbl_professor'
+
+SELECT_PROFESSOR_ID = 'SELECT * FROM tbl_professor WHERE id_professor = %s'
+
+INSERT_PROFESSOR = '''INSERT INTO tbl_professor(nome, sobrenome, telefone, cpf, data_nasc, salario)
+                     VALUES (%s, %s, %s, %s, %s, %s)'''
+
+UPDATE_PROFESSOR = '''UPDATE tbl_professor SET nome = %s, sobrenome = %s, telefone = %s, 
+                        cpf = %s, data_nasc = %s, salario= %s
+                        WHERE id_professor = %s'''
+
+DELETE_PROFESSOR = '''DELETE FROM tbl_professor WHERE id_professor = %s'''
+
