@@ -1,11 +1,13 @@
-from app.database.repositories import student as st
+from app.gui.main_window import MainWindow
+
 
 def main():
-    
-    
-    for i in st.find_all_students():
-        print(i)
-
+    """
+    Função principal da aplicação
+    Inicia a interface gráfica com CustomTkinter
+    """
+    app = MainWindow()
+    app.mainloop()
 
 
 if __name__ == "__main__":
