@@ -1,6 +1,8 @@
 import customtkinter as ctk
 
 from app.gui.styles.fonts import *
+from app.gui.styles.colors import *
+from app.gui.styles.styles import *
 
 class CardFrame(ctk.CTkFrame):
     '''Frame customizado para exibir cards informativos'''
@@ -26,4 +28,22 @@ class CardFrame(ctk.CTkFrame):
         # Frame de conteúdo
         self.content_frame = ctk.CtkFrame(self, fg_color='trasparent')
         self.content_frame.pack(fill='both', expand=True, padx=15, pady=(0, 15))
-        
+    
+    def get_content_frame(self):
+        '''Retorna o frame de conteúdo para adicionar widgets'''
+        return self.content_frame
+
+class CustomFrame(ctk.CTkFrame):
+    '''Frame customizado com padding padrão'''
+    def __init__(self, master, **kwargs):
+        super().__init__(
+            master,
+            fg_color='white',
+            corner_radius=FRAME_CORNER_RADIUS,
+            border_width=1,
+            border_color=FRAME_BG,
+            **kwargs,
+        )
+
+
+    
